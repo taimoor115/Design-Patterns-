@@ -23,3 +23,7 @@ lead to race conditions. If multiple threads simultaneously check whether the in
 null and then proceed to create it, you might end up with multiple instances of the
 Singleton. To address this, you can use synchronization mechanisms like double-checked
 locking or other thread-safe initialization methods.
+
+Preventation from Breakage:
+1.Enum
+2.Throw exception in Constructor

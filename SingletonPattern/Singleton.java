@@ -1,8 +1,13 @@
+import javax.management.RuntimeErrorException;
+
 public class Singleton {
   private static Singleton singletonVar; // default is null
   // Constructor
 
   private Singleton() {
+    if (singletonVar != null) {
+      throw new RuntimeErrorException(null);
+    }
   }
 
   // Method that return the Object

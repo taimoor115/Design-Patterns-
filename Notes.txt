@@ -16,3 +16,5 @@ Example: Proxy, adapter design pattern
 It related to the object interaction like how two objects are interact with each other that it maintains its
 loose coupling.
 Example: Observal, State, Iterator patterns
+
+
